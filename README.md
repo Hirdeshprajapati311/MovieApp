@@ -1,6 +1,6 @@
 # 🎬 MovieApp
 
-MovieApp is a sleek and responsive React application that fetches and displays movies from a movie database API (like TMDb). Browse trending and top-rated movies, and switch between categories with ease.
+MovieApp is a sleek and responsive React application that fetches and displays movies from a movie database API (like TMDb). Browse trending and top-rated movies.
 
 <img width="1885" height="881" alt="image" src="https://github.com/user-attachments/assets/67f77f23-eb67-448f-b1ba-1fd4acd21fac" />
 
@@ -19,10 +19,10 @@ MovieApp is a sleek and responsive React application that fetches and displays m
 
 ## 🛠️ Tech Stack
 
-- React.js (Vite or CRA)
-- JavaScript (ES6+)
+- React.js (Vite)
+- JavaScript (ES6+)/TypeScript
 - Fetch API
-- CSS (or Tailwind/Bootstrap if used)
+- Tailwind
 
 ---
 
