@@ -1,69 +1,41 @@
-# React + TypeScript + Vite
+# 🎬 MovieApp
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+MovieApp is a sleek and responsive React application that fetches and displays movies from a movie database API (like TMDb). Browse trending and top-rated movies, and switch between categories with ease.
 
-Currently, two official plugins are available:
+<img width="1885" height="881" alt="image" src="https://github.com/user-attachments/assets/67f77f23-eb67-448f-b1ba-1fd4acd21fac" />
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## 🚀 Features
 
-```js
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+- 🔥 Fetches **Trending** and **Top-Rated** movies
+- 🎨 Clean, responsive UI using React
+- 🧭 Toggle between categories easily
+- 🧱 Built with functional components and hooks
+- 📡 Uses Fetch API for API calls
 
-      // Remove tseslint.configs.recommended and replace with this
-      ...tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      ...tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      ...tseslint.configs.stylisticTypeChecked,
+---
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+## 🛠️ Tech Stack
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+- React.js (Vite or CRA)
+- JavaScript (ES6+)
+- Fetch API
+- CSS (or Tailwind/Bootstrap if used)
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+---
 
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+## 📦 Installation & Setup
+
+```bash
+git clone https://github.com/Hirdeshprajapati311/movieapp.git
+cd movieapp
+npm install
+npm run dev
+
+
+🌐 API Used
+This app uses a free movie API (e.g. TMDb) to fetch movie data. You’ll need an API key to run it locally.
+Go to TMDB and create an account you will find your free API in API Reference Tocken
+VITE_MOVIE_API_KEY=your_api_key_here
