@@ -7,10 +7,10 @@ MovieApp is a sleek and responsive React application that fetches and displays m
 
 ---
 
-#⚠️ TMDB API Connectivity Issue (Heads-Up)
+# ⚠️ TMDB API Connectivity Issue (Heads-Up)
 If the app is not loading data or showing blank content, especially on first launch, it might be due to a known issue with the TMDB API not responding properly over certain Wi-Fi networks.
 
-##💡 Quick Fix:
+## 💡 Quick Fix:
 Try switching to your mobile hotspot or a different network.
 
 This happens because:
